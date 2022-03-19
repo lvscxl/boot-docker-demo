@@ -68,6 +68,7 @@
                 <configuration>
                     <!--  镜像名称-->
                     <repository>boot-docker-demo</repository>
+
                     <tag>1.0</tag>
 
                     <!-- 构建时的传入dockerfile的参数-->
