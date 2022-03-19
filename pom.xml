@@ -35,7 +35,8 @@
     <build>
 
         <!--        <finalName>ROOT</finalName>-->
-        <finalName>ROOT</finalName>
+<!--        <finalName>ROOT</finalName>-->
+        <finalName>boot-docker-demo</finalName>
         <resources>
             <resource>
                 <directory>${project.basedir}/src/main/resources</directory>
