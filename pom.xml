@@ -36,7 +36,7 @@
 
         <!--        <finalName>ROOT</finalName>-->
 <!--        <finalName>ROOT</finalName>-->
-        <finalName>boot-docker-demo</finalName>
+        <finalName>boot-docker-demo.1.0</finalName>
         <resources>
             <resource>
                 <directory>${project.basedir}/src/main/resources</directory>
@@ -64,6 +64,7 @@
                 <groupId>com.spotify</groupId>
                 <artifactId>dockerfile-maven-plugin</artifactId>
                 <version>1.4.10</version>
+
 <!--                <configuration>-->
 <!--                    &lt;!&ndash;  镜像名称&ndash;&gt;-->
 <!--                    <repository>boot-docker-demo</repository>-->
