@@ -61,22 +61,18 @@
 
             <!-- https://mvnrepository.com/artifact/com.spotify/dockerfile-maven-plugin -->
             <plugin>
-
                 <groupId>com.spotify</groupId>
                 <artifactId>dockerfile-maven-plugin</artifactId>
                 <version>1.4.10</version>
-                <configuration>
-                    <!--  镜像名称-->
-                    <repository>boot-docker-demo</repository>
-
-                    <tag>1.0</tag>
-
-                    <!-- 构建时的传入dockerfile的参数-->
-                    <buildArgs>
-                        <JAR_FILE>/target/boot-docker-demo</JAR_FILE>
-                    </buildArgs>
-                </configuration>
-
+<!--                <configuration>-->
+<!--                    &lt;!&ndash;  镜像名称&ndash;&gt;-->
+<!--                    <repository>boot-docker-demo</repository>-->
+<!--                    <tag>1.0</tag>-->
+<!--                    &lt;!&ndash; 构建时的传入dockerfile的参数&ndash;&gt;-->
+<!--                    <buildArgs>-->
+<!--                        <JAR_FILE>/target/boot-docker-demo</JAR_FILE>-->
+<!--                    </buildArgs>-->
+<!--                </configuration>-->
             </plugin>
 
         </plugins>
